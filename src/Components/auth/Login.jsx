@@ -1,7 +1,7 @@
 'use client';
 // src/components/auth/Login.jsx
 import { useState } from "react";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "../../context/AuthContext";
 import { useRouter } from "next/navigation";
 const Login = () => {
   const [email, setEmail] = useState("");
